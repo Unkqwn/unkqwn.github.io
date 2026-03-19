@@ -12,13 +12,18 @@ body {
 
 /* Button*/
 .btn {
-    font-weight: bold;
     transition: all 300ms ease;
     border-radius: 1rem;
 }
 
 .btn:hover {
     background: rgb(200, 200, 200);
+}
+
+.btn-container {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
 }
 
 /* Header */
@@ -74,11 +79,12 @@ body {
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
-    background-color: #ffffff;
+    min-height: 90vh;
 }
 
 .hero-img-container {
-    flex: 0 0 300px;
+    max-width: min(400px, 60vw);
+    width: 100%;
 }
 
 .hero-img-container img {
@@ -103,4 +109,47 @@ body {
 .title {
     font-size: 1.75rem;
     font-weight: bold;
+}
+
+/* Projects */
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 500px;
+    padding: 1rem;
+    border: rgb(200, 200, 200) .1rem solid;
+    border-radius: 1.5rem;
+    border-color: black;
+}
+
+.project-image {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.project-btn {
+    flex: 1;
+    padding: 0.5rem 1rem;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    #hero {
+        flex-direction: column;
+        min-height: auto;
+        padding: 2rem 1rem;
+    }
 }

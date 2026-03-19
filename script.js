@@ -10,6 +10,28 @@ async function loadComponent(selector, url) {
     }
 }
 
+function createProjectContainer(project) {
+    const container = document.createElement('div');
+    container.className = 'project-container';
+    container.innerHTML = `
+        <img class="project-image" src="${project.image}" alt="${project.name}">
+        <h1 class="project-name">${project.name}</h1>
+        <div class="btn-container">
+            <button class="btn project-btn" onclick="window.open('${project.github}')">GitHub</button>
+            <button class="btn project-btn" onclick="window.location.href='${project.projectPage}'">View Project</button>
+        </div>
+    `;
+    return container;
+}
+
+function renderProjects(projects) {
+    const projectsDiv = document.getElementById('projects');
+    if (!projectsDiv) return;
+    projects.forEach(project => {
+        projectsDiv.appendChild(createProjectContainer(project));
+    });
+}
+
 async function initComponents(onReady) {
     await Promise.all([
         loadComponent('#header-placeholder', 'components/header.html'),
