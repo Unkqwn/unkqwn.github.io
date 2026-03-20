@@ -1,0 +1,20 @@
+{
+	"nav": {
+		"logo": "Robin van den Berg",
+		"home": "Home",
+		"about": "Over",
+		"contact": "Contact"
+	},
+	"home": {
+		"greeting": "Hallo, ik ben",
+		"profession": "XR Ontwikkelaar",
+		"projectsTitle": "Projecten"
+	},
+	"project": {
+		"github": "GitHub",
+		"view": "Bekijk project"
+	},
+	"footer": {
+		"rights": "Robin van den Berg. Alle rechten voorbehouden."
+	}
+}

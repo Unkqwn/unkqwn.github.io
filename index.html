@@ -16,14 +16,18 @@
             <img src="Assets/Profile.png" alt="Profile Picture">
         </div>
         <div class="hero-text-container">
-            <p class="section__text__p1">Hello I'm</p>
+            <p class="section__text__p1" data-i18n="home.greeting">Hello I'm</p>
             <h1 class="title">Robin van den Berg</h1>
-            <p class="profession">XR Developer</p>
+            <p class="profession" data-i18n="home.profession">XR Developer</p>
         </div>
     </div>
 
-    <h1 class="projects-title title">Projects</h1>
+    <h1 class="projects-title title" data-i18n="home.projectsTitle">Projects</h1>
     <div id="projects">
+    </div>
+
+    <div id="experience">
+        
     </div>
 
     <div id="footer-placeholder"></div>
@@ -51,6 +55,7 @@
             }
         ];
 
+        window.projects = projects;
         initComponents();
         renderProjects(projects);
     </script>
