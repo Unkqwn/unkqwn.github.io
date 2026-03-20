@@ -132,7 +132,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 450px;
-    height: 500px;
+    height: 550px;
     padding: 1rem;
     border: rgb(200, 200, 200) .1rem solid;
     border-radius: 1.5rem;
@@ -141,7 +141,7 @@ body {
 
 .project-image {
     width: 100%;
-    height: 75%;
+    height: 375px;
     object-fit: cover;
     border-radius: 1rem;
 }
@@ -149,6 +149,22 @@ body {
 .project-btn {
     flex: 1;
     padding: 0.5rem 1rem;
+}
+
+.project-languages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin: 0.5rem 0 1rem;
+}
+
+.project-language {
+    padding: 0.25rem 0.65rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 0.4);
+    font-size: 0.85rem;
 }
 
 /* Responsive */

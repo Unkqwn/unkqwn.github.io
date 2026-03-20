@@ -17,6 +17,10 @@ function createProjectContainer(project) {
         container.classList.add(project.containerClass);
     }
 
+    const languageTags = Array.isArray(project.languages) && project.languages.length
+        ? `<div class="project-languages">${project.languages.map(language => `<span class="project-language">${language}</span>`).join('')}</div>`
+        : '';
+
     const optionalThirdButton = project.extraLink
         ? `<button class="btn project-btn" onclick="window.open('${project.extraLink}', '_blank')">${project.extraLinkLabel || 'Extra Link'}</button>`
         : '';
@@ -24,6 +28,7 @@ function createProjectContainer(project) {
     container.innerHTML = `
         <img class="project-image" src="${project.image}" alt="${project.name}">
         <h1 class="project-name">${project.name}</h1>
+        ${languageTags}
         <div class="btn-container">
             <button class="btn project-btn" onclick="window.open('${project.github}')">GitHub</button>
             <button class="btn project-btn" onclick="window.location.href='${project.projectPage}'">View Project</button>
