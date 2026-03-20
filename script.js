@@ -26,7 +26,7 @@ function createProjectContainer(project) {
         : '';
 
     container.innerHTML = `
-        <img class="project-image" src="${project.image}" alt="${project.name}">
+        <img class="project-image" src="${project.image}.png" alt="${project.name}">
         <h1 class="project-name">${project.name}</h1>
         ${languageTags}
         <div class="btn-container">
