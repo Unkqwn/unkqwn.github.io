@@ -121,6 +121,12 @@ body {
     margin: 0 auto;
 }
 
+.projects-title {
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+}
+
 .project-container {
     display: flex;
     flex-direction: column;

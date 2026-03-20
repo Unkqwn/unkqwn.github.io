@@ -13,6 +13,9 @@ async function loadComponent(selector, url) {
 function createProjectContainer(project) {
     const container = document.createElement('div');
     container.className = 'project-container';
+    if (project.containerClass) {
+        container.classList.add(project.containerClass);
+    }
     container.innerHTML = `
         <img class="project-image" src="${project.image}" alt="${project.name}">
         <h1 class="project-name">${project.name}</h1>
