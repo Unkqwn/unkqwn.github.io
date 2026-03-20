@@ -65,8 +65,8 @@ function updateLanguageButton() {
 
 function applyTranslations() {
     document.documentElement.lang = currentLanguage;
-    document.querySelectorAll('[data-i18n]').forEach((element) => {
-        const key = element.getAttribute('data-i18n');
+    document.querySelectorAll('[language-text]').forEach((element) => {
+        const key = element.getAttribute('language-text');
         if (!key) return;
         element.textContent = t(key, element.textContent);
     });

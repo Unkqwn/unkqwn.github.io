@@ -14,6 +14,9 @@
 		"github": "GitHub",
 		"view": "View Project"
 	},
+    "about": {
+        "title": "About me"
+    },
 	"footer": {
 		"rights": "Robin van den Berg. All rights reserved."
 	}

@@ -11,3 +11,8 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.about-img {
+    height: 50vh;
+    width: auto;
+}

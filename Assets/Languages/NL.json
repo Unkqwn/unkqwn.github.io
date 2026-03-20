@@ -7,13 +7,16 @@
 	},
 	"home": {
 		"greeting": "Hallo, ik ben",
-		"profession": "XR Ontwikkelaar",
+		"profession": "XR Developer",
 		"projectsTitle": "Projecten"
 	},
 	"project": {
 		"github": "GitHub",
 		"view": "Bekijk project"
 	},
+    "about": {
+        "title": "Over mij"
+    },
 	"footer": {
 		"rights": "Robin van den Berg. Alle rechten voorbehouden."
 	}
