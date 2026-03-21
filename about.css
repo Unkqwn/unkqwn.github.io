@@ -7,12 +7,54 @@ body {
 #about-container {
     flex: 1;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 3vw;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-container {
+    flex: 0 0 auto;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
 }
 
 .about-img {
-    height: 50vh;
-    width: auto;
+    width: min(50vh, 40vw);
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.about-text {
+    white-space: pre-line;
+}
+
+@media (max-width: 768px) {
+    #about-container {
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 1.5rem;
+    }
+
+    .img-container,
+    .text-container {
+        justify-content: center;
+    }
+
+    .text-container {
+        text-align: center;
+    }
 }

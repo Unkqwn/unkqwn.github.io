@@ -15,7 +15,16 @@
 		"view": "View Project"
 	},
     "about": {
-        "title": "About me"
+        "title": "About me",
+		"body": [
+			"I am Robin and was born on January 16th 2004 in The Netherlands, Veenendaal, where I currently live.",
+			"I've always been fascinated with technology and games and what is possible when using it to help people.",
+			"I love working with a driven team on challenging projects, especially ones meant to help people.",
+			"\n\nLast but not least, let me tell you a bit more about myself outside of being a developer.",
+			"\nMy hobbies mainly consist of gaming and playing D&D with my friends with me usually being the DM.",
+			"Love making stories for characters and locations.",
+			"I always have a bunch of ideas for new stories and love taking inspiration from shows or games while still being original."
+		]
     },
 	"footer": {
 		"rights": "Robin van den Berg. All rights reserved."

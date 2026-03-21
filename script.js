@@ -54,7 +54,9 @@ async function loadTranslations(language) {
 
 function t(key, fallback = key) {
     const translated = getNestedTranslation(currentTranslations, key);
-    return typeof translated === 'string' ? translated : fallback;
+    if (typeof translated === 'string') return translated;
+    if (Array.isArray(translated)) return translated.join(' ');
+    return fallback;
 }
 
 function updateLanguageButton() {
