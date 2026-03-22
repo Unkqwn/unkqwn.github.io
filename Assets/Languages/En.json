@@ -8,7 +8,8 @@
 	"home": {
 		"greeting": "Hello I'm",
 		"profession": "XR Developer",
-		"projectsTitle": "Projects"
+		"projectsTitle": "Projects",
+		"projectSubtitle": "Work in progress"
 	},
 	"project": {
 		"github": "GitHub",

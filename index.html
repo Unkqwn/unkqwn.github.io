@@ -26,13 +26,19 @@
     <div id="projects">
     </div>
 
+    <h2 class="project-subtitle subtitle" language-text="home.projectSubtitle">Work in progress</h2>
+    <div id="wip">
+    </div>
+
     <div id="experience">
         
     </div>
 
     <div id="footer-placeholder"></div>
 
-    <script src="script.js"></script>
+    <script src="languages.js"></script>
+    <script src="projects.js"></script>
+    <script src="components.js"></script>
     <script>
         const projects = [
             {
@@ -55,9 +61,23 @@
             }
         ];
 
+        const wipProjects = [
+            {
+                name: "Character sheets",
+                nameKey: "wip.characterSheets",
+                containerClass: "ChSh-container",
+                image: "Assets/CharacterSheets/ChSh_logo",
+                languages: ["Python"],
+                github: "https://github.com/Unkqwn/Character-sheets",
+                projectPage: "CharacterSheets.html"
+            }
+        ];
+
         window.projects = projects;
+        window.wipProjects = wipProjects;
         initComponents();
         renderProjects(projects);
+        renderWipProjects(wipProjects);
     </script>
 </body>
 

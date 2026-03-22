@@ -125,7 +125,8 @@ body {
 }
 
 /* Projects */
-#projects {
+#projects,
+#wip {
     display: grid;
     grid-template-columns: repeat(auto-fit, 500px);
     gap: 2rem;
@@ -138,6 +139,11 @@ body {
     display: flex;
     justify-content: center;
     font-size: 75px;
+}
+
+.project-subtitle {
+    display: flex;
+    justify-content: center;
 }
 
 .project-container {
