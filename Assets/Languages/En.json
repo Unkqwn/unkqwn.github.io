@@ -29,5 +29,10 @@
     },
 	"footer": {
 		"rights": "Robin van den Berg. All rights reserved."
+	},
+	"HTYD": {
+		"about": [
+			"This is a group project from my third year of coding."
+		]
 	}
 }

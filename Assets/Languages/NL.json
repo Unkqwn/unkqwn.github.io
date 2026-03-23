@@ -29,5 +29,8 @@
     },
 	"footer": {
 		"rights": "Robin van den Berg. Alle rechten voorbehouden."
+	},
+	"HTYD": {
+		"about": "Dit is een groeps project van mijn derde jaar van coderen."
 	}
 }
