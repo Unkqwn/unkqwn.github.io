@@ -35,6 +35,28 @@ body {
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 }
 
+.layout-1 {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 2.5rem;
+}
+
+.layout-2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 2.5rem;
+}
+
+.example-gif {
+    max-height: 25rem;
+}
+
 .ChSh-title {
     color: rgb(50, 50, 50);
 }
