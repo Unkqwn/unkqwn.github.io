@@ -18,7 +18,7 @@ body {
 }
 
 .project-banner {
-    height: 200px;
+    max-height: 200px;
     width: 100%;
     display: block;
     object-fit: cover;
