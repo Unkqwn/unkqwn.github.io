@@ -36,9 +36,37 @@ body {
 }
 
 .about-text {
-    text-align: center;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
     white-space: pre-line;
     font-size: 1.2rem;
+}
+
+.layout-top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 2.5rem;
+    align-items: flex-start;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 1rem;
+    align-items: flex-end;
+    max-width: 10rem;
+    max-height: none;
+}
+
+.project-btn {
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    min-height: 3.5rem;
+    min-width: 10rem;
 }
 
 .layout {

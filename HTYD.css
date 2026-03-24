@@ -23,3 +23,14 @@ body {
     width: 100%;
     position: relative;
 }
+
+.HTYD-btn {
+    border-color: rgb(163, 195, 154);
+    background-color: rgb(221, 233, 211);
+    color: rgb(143, 172, 135);
+    border-style: solid;
+}
+
+.HTYD-btn:hover {
+    background-color: rgb(183, 215, 174);
+}
