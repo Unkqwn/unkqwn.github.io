@@ -35,22 +35,31 @@ body {
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 }
 
-.layout-1 {
+.about-text {
+    text-align: center;
+    white-space: pre-line;
+    font-size: 1.2rem;
+}
+
+.layout {
     display: flex;
     width: 100%;
-    flex-direction: row-reverse;
+    height: 50vh;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-right: 2.5rem;
+}
+
+.layout img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.layout-1 {
+    flex-direction: row-reverse;
 }
 
 .layout-2 {
-    display: flex;
-    width: 100%;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-right: 2.5rem;
 }
 
 .example-gif {

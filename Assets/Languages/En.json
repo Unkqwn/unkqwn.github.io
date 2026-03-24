@@ -32,7 +32,11 @@
 	},
 	"HTYD": {
 		"about": [
-			"This is a group project from my third year of coding."
-		]
+			"This is a group project from my third year of coding.",
+			"Hop 'till you drop is a twinstick shooter with a cute artstyle.",
+			"\nDue to it being a school project, we had a very limited time to work on it",
+			"but despite the time limit in the end I was happy with how it turned out."
+		],
+		"code-1": "This is code 1"
 	}
 }
