@@ -24,8 +24,11 @@
 			"\n\nTenslotte, laat me je iets meer over jezelf vertellen buiten het zijn van een developer.",
 			"\nMijn hobby's bestaan voornamelijk uit gamen en D&D spelen met mijn vrienden, waarbij ik meestal de DM ben.",
 			"Ik hou ervan om verhalen voor karakters en locaties te bedenken.",
-			"Ik heb altijd veel ideeën voor nieuwe verhalen en hou ervan inspiratie op te doen uit films of games terwijl ik nog origineel blijf."
-		]
+			"Ik heb altijd veel ideeën voor nieuwe verhalen en hou ervan inspiratie op te doen uit films of games terwijl ik nog origineel blijf.",
+			"Daarnaast hou ik ook erg van muziek luisteren.",
+			"Als je geïnteresseerd bent, voel je vrij om naar mijn favoriete nummers te luisteren."
+		],
+		"music": "Mijn favoriete liedjes"
     },
 	"footer": {
 		"rights": "Robin van den Berg. Alle rechten voorbehouden."

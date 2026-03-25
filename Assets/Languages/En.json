@@ -24,8 +24,11 @@
 			"\n\nLast but not least, let me tell you a bit more about myself outside of being a developer.",
 			"\nMy hobbies mainly consist of gaming and playing D&D with my friends with me usually being the DM.",
 			"Love making stories for characters and locations.",
-			"I always have a bunch of ideas for new stories and love taking inspiration from shows or games while still being original."
-		]
+			"I always have a bunch of ideas for new stories and love taking inspiration from shows or games while still being original.",
+			"In adition to all of that, I also love listening to music.",
+			"If you're interested, feel free to listen to my favorite songs."
+		],
+		"music": "My favorite songs"
     },
 	"footer": {
 		"rights": "Robin van den Berg. All rights reserved."

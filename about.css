@@ -28,8 +28,7 @@ body {
     flex: 0 0 auto;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding-top: 1rem;
+    align-items: center;
 }
 
 .text-container {
@@ -42,7 +41,7 @@ body {
 }
 
 .about-img {
-    width: min(55vh, 45vw);
+    width: min(60vh, 50vw);
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }
