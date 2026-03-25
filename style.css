@@ -172,11 +172,6 @@ body {
     border-radius: 1rem;
 }
 
-.project-btn {
-    flex: 1;
-    padding: 0.5rem 1rem;
-}
-
 .project-languages {
     display: flex;
     flex-wrap: wrap;
@@ -191,6 +186,11 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.25);
     background: rgba(255, 255, 255, 0.4);
     font-size: 0.85rem;
+}
+
+.project-btn {
+    flex: 1;
+    padding: 0.5rem 1rem;
 }
 
 /* Responsive */
