@@ -39,8 +39,18 @@
 			"which has been released on Itch.io.",
 			"Hop 'till you drop is a twinstick shooter with a cute artstyle.",
 			"\nDue to it being a school project, we had a very limited time to work on it",
-			"but despite the time limit in the end I was happy with how it turned out."
+			"but despite the time limit in the end I was happy with how it turned out.",
+			"\n\nIf you'd like to play this project you can click the itch.io button.",
+			"Feel free to check out the source code on GitHub as well."
 		],
-		"code-1": "This is code 1"
+		"code-1": [
+			"This code was made to rotate the player either based on the mouse position or the right stick of a controller.",
+			"It switches between the two based on which one was used last,",
+			"so if you were using the mouse and then switched to the controller it would switch to the right stick and the other way around too.",
+			"\nIt makes use of Unity's new input system (which isn't really so new anymore).",
+			"\n\nI'm happy the way the aiming turned out in the end,",
+			"it was a bit tricky to get it working well with both input types, especially switching between the two,",
+			"but I think it ended up working pretty well."
+		]
 	}
 }

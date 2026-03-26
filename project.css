@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: top;
+    justify-content: center;
 }
 
 .project-hero {
@@ -49,7 +49,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     padding: 0 2.5rem;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .btn-container {
@@ -74,12 +74,7 @@ body {
     width: 100%;
     height: 50vh;
     justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.layout img {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    align-items: center;
 }
 
 .layout-1 {
@@ -92,8 +87,50 @@ body {
 
 .example-gif {
     max-height: 25rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
 }
 
-.ChSh-title {
-    color: rgb(50, 50, 50);
+.code-description {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-line;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.code-snippet {
+    flex: 1;
+    max-height: 400px;
+    overflow-y: auto;
+    scrollbar-color: rgb(163, 195, 154) transparent;
+    scrollbar-width: thin;
+    margin: 1rem;
+}
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+.code-snippet::-webkit-scrollbar {
+    width: 8px;
+}
+
+.code-snippet::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.code-snippet::-webkit-scrollbar-thumb {
+    background: rgb(163, 195, 154);
+    border-radius: 4px;
+}
+
+.code-snippet::-webkit-scrollbar-thumb:hover {
+    background: rgb(143, 172, 135);
+}
+
+.code-snippet::-webkit-scrollbar-button {
+    display: none;
 }
