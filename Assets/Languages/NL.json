@@ -51,6 +51,13 @@
 			"\n\nIk ben blij met hoe het richten uiteindelijk is geworden,",
 			"het was een beetje lastig om het goed aan de slag te krijgen met beide invoertypen, vooral bij het schakelen tussen de twee,",
 			"maar ik denk dat het uiteindelijk behoorlijk goed is geworden."
+		],
+		"code-2": [
+			"Deze code is gemaakt zodat de speler het spel kan pauzeren tijdens het spelen.",
+			"Ik had wat moeite om het pauzeren goed te laten werken met de schietmechanieken,",
+			"omdat de speler nog steeds kon schieten terwijl het spel gepauzeerd was, wat natuurlijk niet de bedoeling was.",
+			"Gelukkig zag ik met behulp van de game manager een oplossing en werkte het uiteindelijk goed.",
+			"\n\nUiteindelijk ben ik blij dat het werkte zodra ik de oplossing doorhad."
 		]
 	}
 }

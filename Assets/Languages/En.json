@@ -55,7 +55,9 @@
 		"code-2": [
 			"This code was made to let the player pause the game while they play it.",
 			"I had a bit of trouble getting the pausing to work well with the shooting mechanics,",
-			"as the player could still shoot while the game was paused, which obviously wasn't the intended behavior."
+			"as the player could still shoot while the game was paused, which obviously wasn't the intended behavior.",
+			"Luckily I saw a way out with use of the game manager and it ended up working well.",
+			"\n\nIn the end I'm happy that it worked once I realised the solution."
 		]
 	}
 }
