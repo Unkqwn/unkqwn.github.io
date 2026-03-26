@@ -51,6 +51,11 @@
 			"\n\nI'm happy the way the aiming turned out in the end,",
 			"it was a bit tricky to get it working well with both input types, especially switching between the two,",
 			"but I think it ended up working pretty well."
+		],
+		"code-2": [
+			"This code was made to let the player pause the game while they play it.",
+			"I had a bit of trouble getting the pausing to work well with the shooting mechanics,",
+			"as the player could still shoot while the game was paused, which obviously wasn't the intended behavior."
 		]
 	}
 }
