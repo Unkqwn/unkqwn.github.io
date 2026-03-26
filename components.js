@@ -12,8 +12,8 @@ async function loadComponent(selector, url) {
 
 async function initComponents(onReady) {
     await Promise.all([
-        loadComponent('#header-placeholder', 'components/header.html'),
-        loadComponent('#footer-placeholder', 'components/footer.html'),
+        loadComponent('#header-placeholder', 'Assets/Components/header.html'),
+        loadComponent('#footer-placeholder', 'Assets/Components/footer.html'),
     ]);
 
     const yearEl = document.getElementById('footer-year');
@@ -23,3 +23,22 @@ async function initComponents(onReady) {
 
     if (typeof onReady === 'function') onReady();
 }
+
+async function loadCodeSnippets() {
+    const codeElements = document.querySelectorAll('[data-code-file]');
+    
+    for (const el of codeElements) {
+        const filePath = el.getAttribute('data-code-file');
+        try {
+            const response = await fetch(filePath);
+            const code = await response.text();
+            el.textContent = code;
+            hljs.highlightElement(el);
+        } catch (error) {
+            console.error(`Failed to load code snippet from ${filePath}:`, error);
+        }
+    }
+}
+
+// Call this after the DOM is ready
+document.addEventListener('DOMContentLoaded', loadCodeSnippets);

@@ -31,7 +31,8 @@ public class PlayerAim : MonoBehaviour
             Vector2 mousePos = Mouse.current.position.ReadValue();
             Ray ray = Camera.main.ScreenPointToRay(mousePos);
 
-            if (Physics.Raycast(ray, out RaycastHit hit, 100f, aimLayerMask))
+            if (Physics.Raycast(ray, out RaycastHit hit, 100f, 
+            aimLayerMask))
             {
                 AimAt(hit.point - transform.position);
             }
@@ -49,6 +50,7 @@ public class PlayerAim : MonoBehaviour
 
         Quaternion targetRot = Quaternion.LookRotation(dir);
 
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRot, rotateSpeed * Time.deltaTime);
+        transform.rotation = Quaternion.Slerp(transform.rotation, 
+        targetRot, rotateSpeed * Time.deltaTime);
     }
 }
