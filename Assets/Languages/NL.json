@@ -35,11 +35,11 @@
 	},
 	"HTYD": {
 		"about": [
-			"Dit is een groepsproject uit mijn derde jaar van coderen,",
-			"dat uitgebracht is op Itch.io.",
-			"Hop 'till you drop is een twinstick shooter met een schattige kunststijl.",
-			"\nOmdat het een schoolproject was, hadden we een zeer beperkte tijd om eraan te werken,",
-			"maar ondanks de tijdsbeperking ben ik uiteindelijk blij met hoe het is geworden.",
+			"Dit is een groepsproject uit mijn derde jaar coderen,",
+			"en we hebben het uitgebracht op Itch.io.",
+			"Hop 'till you drop is een twin-stick shooter met een schattige artstyle.",
+			"\nOmdat het een schoolproject was, hadden we maar beperkte tijd om eraan te werken,",
+			"maar ondanks die tijdsdruk ben ik erg blij met hoe het is geworden.",
 			"\n\nAls je dit project wilt spelen, kun je op de itch.io-knop klikken.",
 			"Bekijk gerust ook de broncode op GitHub."
 		],
@@ -58,6 +58,15 @@
 			"omdat de speler nog steeds kon schieten terwijl het spel gepauzeerd was, wat natuurlijk niet de bedoeling was.",
 			"Gelukkig zag ik met behulp van de game manager een oplossing en werkte het uiteindelijk goed.",
 			"\n\nUiteindelijk ben ik blij dat het werkte zodra ik de oplossing doorhad."
+		]
+	},
+	"SHMUP": {
+		"about": [
+			"Dit is een project uit mijn eerste jaar coderen.",
+			"Toen was ik nog erg onervaren en had ik niet de kennis die ik nu heb, dus heb ik alle code opnieuw uitgewerkt.",
+			"\nDit was een groepsproject met andere developers die ook in hun eerste jaar coderen zaten.",
+			"Zij maakten voor dat moment goede code, en ik weet zeker dat zij net als ik veel zijn gegroeid.",
+			"\n\nJe kunt zowel de originele als de reworked code vinden op de GitHub-pagina door van branch te wisselen."
 		]
 	}
 }

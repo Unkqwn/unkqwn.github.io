@@ -36,11 +36,11 @@
 	"HTYD": {
 		"about": [
 			"This is a group project from my third year of coding,",
-			"which has been released on Itch.io.",
-			"Hop 'till you drop is a twinstick shooter with a cute artstyle.",
-			"\nDue to it being a school project, we had a very limited time to work on it",
-			"but despite the time limit in the end I was happy with how it turned out.",
-			"\n\nIf you'd like to play this project you can click the itch.io button.",
+			"and we released it on Itch.io.",
+			"Hop 'till you drop is a twin-stick shooter with a cute art style.",
+			"\nBecause it was a school project, we had very limited time to work on it,",
+			"but even with that time limit I was happy with how it turned out.",
+			"\n\nIf you'd like to play this project, you can click the itch.io button.",
 			"Feel free to check out the source code on GitHub as well."
 		],
 		"code-1": [
@@ -58,6 +58,15 @@
 			"as the player could still shoot while the game was paused, which obviously wasn't the intended behavior.",
 			"Luckily I saw a way out with use of the game manager and it ended up working well.",
 			"\n\nIn the end I'm happy that it worked once I realised the solution."
+		]
+	},
+	"SHMUP": {
+		"about": [
+			"This is a project from my first year of coding.",
+			"Back then I was very inexperienced and didn't have the knowledge I have today, so I decided to rework all of the code.",
+			"\nThis was a group project with other developers who were also in their first year of coding.",
+			"They made good code for that stage, and I am sure they have improved just like I have.",
+			"\n\nYou can find both the reworked and original code on the GitHub page by switching branches."
 		]
 	}
 }
