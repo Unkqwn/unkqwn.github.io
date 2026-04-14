@@ -8,6 +8,20 @@ const LANGUAGE_FILE_NAMES = {
 let currentLanguage = DEFAULT_LANGUAGE;
 let currentTranslations = {};
 
+function getPathPrefixFromPages() {
+    const marker = '/Pages/';
+    const normalizedPath = window.location.pathname.replace(/\\/g, '/');
+    const markerIndex = normalizedPath.lastIndexOf(marker);
+
+    if (markerIndex === -1) {
+        return '../';
+    }
+
+    const pathAfterPages = normalizedPath.slice(markerIndex + marker.length);
+    const depth = Math.max(pathAfterPages.split('/').length - 1, 0);
+    return depth === 0 ? '../' : `../${'../'.repeat(depth)}`;
+}
+
 function getStoredLanguage() {
     const stored = localStorage.getItem('language');
     return SUPPORTED_LANGUAGES.includes(stored) ? stored : DEFAULT_LANGUAGE;
@@ -31,7 +45,8 @@ async function loadTranslations(language) {
     if (!fileName) return {};
 
     try {
-        const response = await fetch(`Assets/Languages/${fileName}.json`);
+        const pathPrefix = getPathPrefixFromPages();
+        const response = await fetch(`${pathPrefix}Assets/Languages/${fileName}.json`);
         if (!response.ok) throw new Error(`Failed to load translations for ${language}`);
         return await response.json();
     } catch (error) {
