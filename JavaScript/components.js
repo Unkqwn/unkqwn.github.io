@@ -16,12 +16,12 @@ function getPathPrefixFromPages() {
     const markerIndex = normalizedPath.lastIndexOf(marker);
 
     if (markerIndex === -1) {
-        return '../';
+        return '';
     }
 
     const pathAfterPages = normalizedPath.slice(markerIndex + marker.length);
     const depth = Math.max(pathAfterPages.split('/').length - 1, 0);
-    return depth === 0 ? '../' : `../${'../'.repeat(depth)}`;
+    return '../'.repeat(depth + 1);
 }
 
 function updateComponentNavigationLinks() {
@@ -29,17 +29,24 @@ function updateComponentNavigationLinks() {
     const normalizedPath = window.location.pathname.replace(/\\/g, '/');
     const markerIndex = normalizedPath.lastIndexOf(marker);
 
-    let pagePrefix = '';
+    let rootPrefix = '';
+    let pagesPrefix = 'Pages/';
     if (markerIndex !== -1) {
         const pathAfterPages = normalizedPath.slice(markerIndex + marker.length);
         const depth = Math.max(pathAfterPages.split('/').length - 1, 0);
-        pagePrefix = '../'.repeat(depth);
+        rootPrefix = '../'.repeat(depth + 1);
+        pagesPrefix = '../'.repeat(depth);
     }
 
     document.querySelectorAll('[data-page-link]').forEach((anchor) => {
         const route = anchor.getAttribute('data-page-link');
         if (!route) return;
-        anchor.setAttribute('href', `${pagePrefix}${route}`);
+
+        const href = route === 'index.html'
+            ? `${rootPrefix}index.html`
+            : `${pagesPrefix}${route}`;
+
+        anchor.setAttribute('href', href);
     });
 }
 

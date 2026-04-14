@@ -14,12 +14,12 @@ function getPathPrefixFromPages() {
     const markerIndex = normalizedPath.lastIndexOf(marker);
 
     if (markerIndex === -1) {
-        return '../';
+        return '';
     }
 
     const pathAfterPages = normalizedPath.slice(markerIndex + marker.length);
     const depth = Math.max(pathAfterPages.split('/').length - 1, 0);
-    return depth === 0 ? '../' : `../${'../'.repeat(depth)}`;
+    return '../'.repeat(depth + 1);
 }
 
 function getStoredLanguage() {
