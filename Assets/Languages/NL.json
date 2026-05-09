@@ -67,6 +67,21 @@
 			"\nDit was een groepsproject met andere developers die ook in hun eerste jaar coderen zaten.",
 			"Zij maakten voor dat moment goede code, en ik weet zeker dat zij net als ik veel zijn gegroeid.",
 			"\n\nJe kunt zowel de originele als de reworked code vinden op de GitHub-pagina door van branch te wisselen."
+		],
+		"code-1": [
+			"Deze code is voor de shooting mechanics van de speler, waardoor ze torpedo's in de richting kunnen schieten waarin ze mikken.",
+			"\nZoals je kunt zien, was de originele code een combinatie van de shooting mechanics en de health van de speler, wat het een beetje rommelig maakte.",
+			"Dus nu heb ik het opgesplitst in twee aparte scripts, één voor het schieten, zoals je bij de reworked versie kunt zien, en één voor de health, wat het veel schoner maakt.",
+			"\nWat me het meest aan de reworked code bevalt, is dat het een component voor de torpedo's toevoegt, waardoor ze gemakkelijker herbruikbaar zijn voor de vijanden in andere scripts.",
+			"\n\nUiteindelijk ben ik blij met hoe ik de code heb aangepast, wat een goede vergelijking maakt tussen mezelf als eerstejaars en mezelf drie jaar later."
+		],
+		"code-2": [
+			"Deze code is voor de health van de baas, waardoor deze damage kan nemen en sterven als de health nul bereikt.",
+			"\nDe originele code was toen voldoende, maar was afhankelijk van het gebruik van projectielen met een specifieke tag.",
+			"Dit was dus klaar voor verbetering, nu niet meer afhankelijk van de tag en in plaats daarvan een interface voor damageable objecten gebruikend, wat veel schoner en herbruikbaarder is.",
+			"\nIk hield ook niet van hoe de originele code gebruik maakte van de scene manager,",
+			"dus heb ik besloten om het laden van scènes naar de game manager te verplaatsen, wat veel beter is voor scheiding van verantwoordelijkheden.",
+			"\n\nIk denk dat deze rework een goed voorbeeld is van hoeveel ik ben verbeterd als developer, met het gebruik van betere praktijken en schoner code."
 		]
 	}
 }
