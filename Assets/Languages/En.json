@@ -67,6 +67,21 @@
 			"\nThis was a group project with other developers who were also in their first year of coding.",
 			"They made good code for that stage, and I am sure they have improved just like I have.",
 			"\n\nYou can find both the reworked and original code on the GitHub page by switching branches."
+		],
+		"code-1": [
+			"This code is for the player's shooting mechanics, allowing them to shoot torpedoes in the direction they are aiming.",
+			"\nAs you can see, the original code was a combination of the shooting mechanics and the player's health, which made it a bit messy.",
+			"So now I split it up into two separate scripts, one for the shooting, as you can see with the reworked version, and one for the health, which makes it a lot cleaner.",
+			"\nWhat I'm happiest about with the reworked code is that it adds a component for the torpedoes, making them easier to reuse for the enemies in other scripts.",
+			"\n\nIn the end I'm happy with how I reworked the code, making it a good comparison between myself as a first year and myself three years later."
+		],
+		"code-2": [
+			"This code is for the boss's health, allowing it to take damage and die when its health reaches zero.",
+			"\nThe original code was enough for back then but it relied on using projectiles with a specific tag.",
+			"So it was prime for improvement, now not being reliant on the tag and instead using an interface for damageable objects, which is a lot cleaner and more reusable.",
+			"\nI also didn't like how the original code made use of the scene manager,",
+			"so I decided to move the scene loading to the game manager, which is a lot better for separation of concerns.",
+			"\n\nI think this rework is a good example of how much I've improved as a developer, making use of better practices and cleaner code."
 		]
 	}
 }

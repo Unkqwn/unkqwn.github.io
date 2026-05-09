@@ -36,7 +36,9 @@ public class PlayerShoot : MonoBehaviour
 
         nextFireTime = 0;
 
-        GameObject projectile = Instantiate(torpedoPrefab, attackSpawn.position, attackSpawn.rotation);
+        // Spawns the torpedo prefab at the correct position and rotation and stores a reference to the spawned projectile
+        GameObject projectile = Instantiate(torpedoPrefab, 
+        attackSpawn.position, attackSpawn.rotation);
 
         // Adds the PlayerTorpedo component to the projectile and sets its damage, then destroys the projectile after torpedoLifetime seconds
         PlayerTorpedo torpedo = projectile.AddComponent<PlayerTorpedo>();
