@@ -15,6 +15,7 @@ public class Pausing : MonoBehaviour
 
     private void Update()
     {
+        // Pause or resume the game based on the isGamePaused variable in GameManager
         if (gameManager.isGamePaused)
         {
             Time.timeScale = 0f;
@@ -46,6 +47,7 @@ public class Pausing : MonoBehaviour
 
     public void QuitButton()
     {
+        // Stops play mode in the editor and quits the application in a build
         Application.Quit();
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;

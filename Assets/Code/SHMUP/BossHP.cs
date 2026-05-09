@@ -11,6 +11,7 @@ public class BossHP : MonoBehaviour, IDamageable
     {
         currentHP = maxHP;
 
+        // If the hpBar is not assigned, it'll try to find one in the scene, and if it still can't find one, it'll log a warning and continue without an hpBar
         if (hpBar == null)
         {
             try
@@ -28,6 +29,7 @@ public class BossHP : MonoBehaviour, IDamageable
         }
     }
 
+    // A method from the IDamageable interface that reduces the boss's health by the given damage amount
     public void TakeDamage(float damage)
     {
         currentHP -= damage;

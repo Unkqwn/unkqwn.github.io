@@ -22,6 +22,7 @@ public class PlayerAim : MonoBehaviour
 
     private void Update()
     {
+        // The player can aim with either the joystick or the mouse, only using the joystick if it is being used, otherwise using the mouse
         if (joystickLook.sqrMagnitude > 0.01f)
         {
             AimAt(new Vector3(joystickLook.x, 0f, joystickLook.y));
