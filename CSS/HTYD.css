@@ -1,6 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
-    background-image: url('Assets/HTYD/HTYD-background.png');
+    background-image: url('../Assets/HTYD/HTYD-background.png');
     background-repeat: repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
