@@ -94,7 +94,7 @@ body {
 /* Hero */
 #hero {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;
@@ -104,7 +104,6 @@ body {
 
 .hero-img-container {
     max-width: min(400px, 60vw);
-    width: 100%;
 }
 
 .hero-img-container img {
@@ -113,6 +112,7 @@ body {
     height: auto;
     object-fit: cover;
     display: block;
+    border-radius: .5rem;
 }
 
 .hero-text-container {
@@ -198,7 +198,6 @@ body {
 /* Responsive */
 @media (max-width: 800px) {
     #hero {
-        flex-direction: column;
         min-height: auto;
         padding: 2rem 1rem;
     }
