@@ -35,7 +35,12 @@
 	},
 	"ChSh": {
 		"about": [
-			""
+			"This is a project that I started when I just started out learning python.",
+			"It is meant to be a tool for D&D players to make their own character sheets and save them.",
+			"\nI made this project with the intention of learning more about python.",
+			"Through this project I learned a lot about python and had a lot of fun making it.",
+			"\nIt is still a work in progress and I plan to add more features to it in the future.",
+			"\n\nIf you want to check out the source code, feel free to do so on GitHub."
 		],
 		"code-1": [
 			""
