@@ -40,10 +40,15 @@
 			"\nI made this project with the intention of learning more about python.",
 			"Through this project I learned a lot about python and had a lot of fun making it.",
 			"\nIt is still a work in progress and I plan to add more features to it in the future.",
+			"\nEvery character sheet is saved as a .json file in the form of a dictionary.",
+			"This makes it easy to load and save character sheets.",
 			"\n\nIf you want to check out the source code, feel free to do so on GitHub."
 		],
 		"code-1": [
-			""
+			"This code handles the changing of the ability scores on the character sheet.",
+			"It adjusts the ability score and the modifier based on the input from the user.",
+			"\nThe code is most likely not the best way to do this, but it works and I learned a lot from making it.",
+			"\n\nIn the"
 		],
 		"code-2": [
 			""
