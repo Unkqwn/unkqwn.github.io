@@ -33,6 +33,28 @@
 	"footer": {
 		"rights": "Robin van den Berg. Alle rechten voorbehouden."
 	},
+	"ChSh": {
+		"about": [
+			""
+		],
+		"code-1": [
+			""
+		],
+		"code-2": [
+			""
+		]
+	},
+	"HoPl": {
+		"about": [
+			""
+		],
+		"code-1": [
+			""
+		],
+		"code-2": [
+			""
+		]
+	},
 	"HTYD": {
 		"about": [
 			"Dit is een groepsproject uit mijn derde jaar coderen,",

@@ -33,6 +33,28 @@
 	"footer": {
 		"rights": "Robin van den Berg. All rights reserved."
 	},
+	"ChSh": {
+		"about": [
+			""
+		],
+		"code-1": [
+			""
+		],
+		"code-2": [
+			""
+		]
+	},
+	"HoPl": {
+		"about": [
+			""
+		],
+		"code-1": [
+			""
+		],
+		"code-2": [
+			""
+		]
+	},
 	"HTYD": {
 		"about": [
 			"This is a group project from my third year of coding,",
