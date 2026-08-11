@@ -1,0 +1,14 @@
+.ChSh-title {
+    left: 10rem;
+    top: 10rem;
+    transform: translateY(-50%);
+    color: #000;
+    text-align: left;
+}
+
+.project-banner {
+    max-height: 250px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
