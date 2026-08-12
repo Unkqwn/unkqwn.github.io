@@ -47,11 +47,12 @@
 		"code-1": [
 			"This code handles the changing of the ability scores on the character sheet.",
 			"It adjusts the ability score and the modifier based on the input from the user.",
-			"\nThe code is most likely not the best way to do this, but it works and I learned a lot from making it.",
-			"\n\nIn the"
+			"\nBecause it was my first python project, I didn't know about the best practices for coding in python.",
+			"The code is most likely not the best way to do this, but it works and I learned a lot from making it.",
+			"\n\nIn the end I managed to get it working the way I wanted and I am happy with the result."
 		],
 		"code-2": [
-			""
+			"Just testing"
 		]
 	},
 	"HoPl": {
@@ -114,6 +115,25 @@
 			"\nI also didn't like how the original code made use of the scene manager,",
 			"so I decided to move the scene loading to the game manager, which is a lot better for separation of concerns.",
 			"\n\nI think this rework is a good example of how much I've improved as a developer, making use of better practices and cleaner code."
-		]
+		],
+		"code-3-info": [
+			"Here you can see three different enemies, the Kraken, Piranha, and Shark, each with their own movement pattern.",
+    		"They all have their own movement patterns, but they all share the same base class for movement, which makes it easier to manage and reuse code.",
+			"\nThese scripts are a great example of how I improved as a developer, making use of inheritance and polymorphism to create cleaner and more reusable code."
+		],
+		"code-3": {
+			"Kraken": [
+				"Here you can see the code for the Kraken's movement pattern.",
+				"\nIt's the least complex of the three scripts as it only moves up and down.",
+				"Still, it shows use of the abstract base class for movement.",
+				"\n\nEven though it's basic, I'm very happy with how the Kraken turned out."
+			],
+			"Piranha": [
+				"Here you can see the code for the Piranha's movement pattern."
+			],
+			"Shark": [
+				"Here you can see the code for the Shark's movement pattern."
+			]
+		}
 	}
 }
