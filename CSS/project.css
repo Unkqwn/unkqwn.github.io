@@ -115,7 +115,7 @@ body {
     padding: 0 0 0 1rem;
 }
 
-.code-snippet {
+.layout > pre {
     grid-area: code;
     min-width: 0;
     max-height: 600px;
