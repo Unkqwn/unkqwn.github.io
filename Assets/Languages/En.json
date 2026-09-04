@@ -52,7 +52,11 @@
 			"\n\nIn the end I managed to get it working the way I wanted and I am happy with the result."
 		],
 		"code-2": [
-			"Just testing"
+			"This code shows the saving function for this project, allowing the user to save everything when they want.",
+			"It works with the json files to save it, overwriting it automatically.",
+			"\nI had a hard time with this code, despite it being just a few lines.",
+			"I had never worked with .json files before this project so that caused a bit of trouble for me.",
+			"\n\nI've ended up happy with this code, even if I most likely still have a lot more to learn about python."
 		]
 	},
 	"HoPl": {

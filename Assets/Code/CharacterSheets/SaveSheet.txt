@@ -3,17 +3,11 @@ def SaveNewSheet(sheet_data: dict, filename: str) -> bool:
     try:
         file_path = characterFolder / f"{filename}.json"
         
-        if file_path.exists():
-            overwrite = input(f"\n'{filename}.json' already exists. Overwrite? (yes/no): ").strip().lower()
-            if overwrite != "yes":
-                print("File not saved.")
-                return False
-        
         with file_path.open("w", encoding="utf-8") as f:
             json.dump(sheet_data, f, indent=4)
         
-        print(f"\n Character sheet saved as '{filename}.json'")
         return True
+
     except Exception as e:
         output = text["errorSaving"].format(error = e)
         print(output)

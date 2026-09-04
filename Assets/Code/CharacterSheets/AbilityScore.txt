@@ -2,11 +2,8 @@ def ModifyAbilityScores(sheet_data: dict) -> dict:
     """Allow user to modify ability scores and automatically calculate modifiers."""
     abilities = sheet_data["Ability"]
     
-    print(text["modifyAbilityScores"])
-    
     for ability_name in abilities:
         current_score = abilities[ability_name]["score"]
-        print(f"{ability_name} ({text['currentScore']}{current_score})")
         
         while True:
             prompt = text["enterNewScore"].format(current=current_score)
@@ -25,9 +22,6 @@ def ModifyAbilityScores(sheet_data: dict) -> dict:
                     score = score,
                     modifier = modifier
                 )
-                print(output)
                 break
-            else:
-                print(text["invalidScoreRange"])
     
     return sheet_data
