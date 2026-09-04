@@ -1,3 +1,7 @@
+.project-banner {
+	max-height: 5%;
+}
+
 .code-compare {
 	flex: 1;
 	min-width: 0;
